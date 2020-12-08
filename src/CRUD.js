@@ -6,6 +6,7 @@ places = []
 console.log(typeof(people))
 console.log(typeof(products))
 console.log(typeof(places))
+
 //adição
 people.push('Leona')
 people.push('Laura')
@@ -19,6 +20,7 @@ people.splice(4,1)
 //leitura
 console.log(people)
 
+//adição
 products.push('açúcar')
 products.push('óleo')
 products.push('azeite')
@@ -30,6 +32,7 @@ products.splice(4,1)
 //leitura
 console.log(products)
 
+//adição
 places.push('New york')
 places.push('Israel')
 places.push('Fernando de Noronha')
@@ -58,6 +61,7 @@ place = [{}]
 console.log(typeof(person))
 console.log(typeof(product))
 console.log(typeof(place))
+
 //adição
 person.push({nome:'Vanessa',idade:17,status:'solteira'})
 person.push({nome:'Vania',idade:27,status:'casada'})
@@ -68,7 +72,7 @@ person.push({nome:'Myuki',idade:19,status:'solteira'})
 person.splice(3,1)
 //leitura
 console.log(person)
-
+//adição
 product.push({item:'arroz',preco:'7,65R$',qntdd:654})
 product.push({item:'feijão',preco:'9,65R$',qntdd:744})
 product.push({item:'sal',preco:null ,qntdd:0})
